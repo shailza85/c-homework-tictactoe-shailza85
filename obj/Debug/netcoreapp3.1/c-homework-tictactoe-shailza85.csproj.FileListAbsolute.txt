@@ -1,0 +1,13 @@
+C:\Users\atul\documents\projects\c-homework-tictactoe-shailza85\bin\Debug\netcoreapp3.1\c-homework-tictactoe-shailza85.exe
+C:\Users\atul\documents\projects\c-homework-tictactoe-shailza85\bin\Debug\netcoreapp3.1\c-homework-tictactoe-shailza85.deps.json
+C:\Users\atul\documents\projects\c-homework-tictactoe-shailza85\bin\Debug\netcoreapp3.1\c-homework-tictactoe-shailza85.runtimeconfig.json
+C:\Users\atul\documents\projects\c-homework-tictactoe-shailza85\bin\Debug\netcoreapp3.1\c-homework-tictactoe-shailza85.runtimeconfig.dev.json
+C:\Users\atul\documents\projects\c-homework-tictactoe-shailza85\bin\Debug\netcoreapp3.1\c-homework-tictactoe-shailza85.dll
+C:\Users\atul\documents\projects\c-homework-tictactoe-shailza85\bin\Debug\netcoreapp3.1\c-homework-tictactoe-shailza85.pdb
+C:\Users\atul\documents\projects\c-homework-tictactoe-shailza85\obj\Debug\netcoreapp3.1\c-homework-tictactoe-shailza85.csprojAssemblyReference.cache
+C:\Users\atul\documents\projects\c-homework-tictactoe-shailza85\obj\Debug\netcoreapp3.1\c-homework-tictactoe-shailza85.AssemblyInfoInputs.cache
+C:\Users\atul\documents\projects\c-homework-tictactoe-shailza85\obj\Debug\netcoreapp3.1\c-homework-tictactoe-shailza85.AssemblyInfo.cs
+C:\Users\atul\documents\projects\c-homework-tictactoe-shailza85\obj\Debug\netcoreapp3.1\c-homework-tictactoe-shailza85.csproj.CoreCompileInputs.cache
+C:\Users\atul\documents\projects\c-homework-tictactoe-shailza85\obj\Debug\netcoreapp3.1\c-homework-tictactoe-shailza85.dll
+C:\Users\atul\documents\projects\c-homework-tictactoe-shailza85\obj\Debug\netcoreapp3.1\c-homework-tictactoe-shailza85.pdb
+C:\Users\atul\documents\projects\c-homework-tictactoe-shailza85\obj\Debug\netcoreapp3.1\c-homework-tictactoe-shailza85.genruntimeconfig.cache

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "c-homework-tictactoe-shailza85/1.0.0": {
+        "runtime": {
+          "c-homework-tictactoe-shailza85.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "c-homework-tictactoe-shailza85/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
