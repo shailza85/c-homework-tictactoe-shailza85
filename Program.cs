@@ -231,16 +231,16 @@ namespace c_homework_tictactoe_shailza85
 
                     if(playerToken == 'X')
                     {
-                        Console.WriteLine("Yay congratulations!!! You are the winner, Player 1. You have played horizontally.");
+                        Console.WriteLine("Yay congratulations!!! You are the winner, Player 1. You have played horizontally. Would you like to play again? Please press Y or N.");
                     }
 
                     else if(playerToken == 'O')
                     {
-                        Console.WriteLine("Yay congratulations!!! You are the winner, Player 2. You have played horizontally.");
+                        Console.WriteLine("Yay congratulations!!! You are the winner, Player 2. You have played horizontally. Would you like to play again? Please press Y or N.");
                     }
-
-                    Console.WriteLine("Press any key to reset the game board!!");
-                    Console.ReadKey();
+                    chkYorN();
+                   // Console.WriteLine("Press any key to reset the game board!!");
+                    //Console.ReadKey();
                     resetGame();
                     break;
                 }
@@ -263,16 +263,16 @@ namespace c_homework_tictactoe_shailza85
 
                     if(playerToken == 'X')
                     {
-                        Console.WriteLine("Yay congratulations!!! You are the winner, Player 1. You have played vertically.");
+                        Console.WriteLine("Yay congratulations!!! You are the winner, Player 1. You have played vertically. Would you like to play again? Please press Y or N.");
                     }
 
                     else
                     {
-                        Console.WriteLine("Yay congratulations!!! You are the winner, Player 2. You have played vertically.");
+                        Console.WriteLine("Yay congratulations!!! You are the winner, Player 2. You have played vertically. Would you like to play again? Please press Y or N.");
                     }
-
-                    Console.WriteLine("Press any key to reset the game board!!");
-                    Console.ReadKey();
+                    chkYorN();
+                    //Console.WriteLine("Press any key to reset the game board!!");
+                    //Console.ReadKey();
                     resetGame();
 
                     break;
@@ -294,16 +294,16 @@ namespace c_homework_tictactoe_shailza85
 
                     if(playerToken == 'X')
                     {
-                        Console.WriteLine("Yay congratulations!!! You win the game diagonally, Player 1.");
+                        Console.WriteLine("Yay congratulations!!! You win the game diagonally, Player 1.Would you like to play again? Please press Y or N.");
                     }
 
                     else
                     {
-                        Console.WriteLine("Yay congratulations!!! You win the game diagonally, Player 2.");
+                        Console.WriteLine("Yay congratulations!!! You win the game diagonally, Player 2. Would you like to play again? Please press Y or N.");
                     }
-
-                    Console.WriteLine("Press any key to reset the game board!!");
-                    Console.ReadKey();
+                        chkYorN();
+                    //Console.WriteLine("Press any key to reset the game board!!");
+                    //Console.ReadKey();
                     resetGame();
                     break;
                 }
@@ -312,9 +312,40 @@ namespace c_homework_tictactoe_shailza85
 
         public static void playDraw()  //playDraw method will prompt the user to play again as game is a draw.
         {         
-            Console.WriteLine("The game is a Draw. Would you like to play again? \n Please press any key to return to the game.");
-            Console.ReadKey();
+            Console.WriteLine("The game is a Draw. Would you like to play again? Please press Y or N.");
+            //Console.ReadKey(); 
+            chkYorN();
             resetGame();        
+        }
+
+        public static void chkYorN()
+        {
+            char inputValue = '0';
+            bool inputError = true;
+
+            while (inputError == true)
+            {
+                inputValue = Console.ReadKey().KeyChar;
+                inputValue = inputValue.ToString().ToUpper().ToCharArray()[0];
+
+                if (inputValue == 'Y')
+                {
+                    inputError = false;
+                }
+
+                else if (inputValue == 'N')
+                {
+                     inputError = false;
+                     Console.WriteLine("Thank you for playing the game. Enjoy your rest of the day!!!");
+                }
+
+            else
+            {
+                inputError = true;
+                Console.WriteLine("You have entered invalid character. please try again.");
+            }
+            }
+
         }
     }
 
